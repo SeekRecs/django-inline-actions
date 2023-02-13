@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-inline-actions"
-version = "2.4.0"
+version = "2.5.0"
 description = "django-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin."
 authors = [
     "Alexander Frenzel <alex@relatedworks.com>",
@@ -32,9 +32,9 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.6.1, <4.0"
+python = ">=3.8, <4.0"
 
-django = ">=2.0"
+django = ">=3.0, <4.1"
 
 [tool.poetry.dev-dependencies]
 autoflake = "^1.4"
